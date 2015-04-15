@@ -21,4 +21,6 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '~> 3.2.1'
+  gem 'guard-rspec', require: false
+  gem 'guard-rubocop', require: false
 end
