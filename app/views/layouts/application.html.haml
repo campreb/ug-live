@@ -8,6 +8,11 @@
     = csrf_meta_tags
   %body
     = render 'layouts/navbar'
-    
+
+    - if notice
+      .alert.alert-success= notice
+    - if alert
+      .alert.alert-danger= alert
+
     %main.container
       = yield
