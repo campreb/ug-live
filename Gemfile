@@ -14,6 +14,7 @@ gem 'haml-rails', '~> 0.9.0'
 # ASSETS
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'bootstrap-sass', '~> 3.3.4'
 
 group :development, :test do
   gem 'byebug'
