@@ -11,6 +11,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jbuilder', '~> 2.0'
 gem 'haml-rails', '~> 0.9.0'
 
+# AUTHENTICATION
+gem 'devise', '~> 3.4.1'
+
 # ASSETS
 gem 'jquery-rails'
 gem 'turbolinks'
